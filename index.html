@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <style media="screen"></style>
+  <script type="text/javascript" src="/scripts.js"></script>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <div class="calculator-header">
+          <h2>BMI Calculator</h2>
+          <p>Calculate your Body Mass Index</p>
+        </div>
+        <p class="text">Enter your height (cm):</p>
+        <input type="number" id="height" />
+        <p class="text">Enter your weight (kg):</p>
+        <input type="number" id="weight" />
+        <p id="result"></p>
+        <button id="btn" onClick="calculateBMI()">Calculate</button>
+        <img class="logo" src="logo.png" alt="logo" />
+      </div>
+    </div>
+  </body>
+</html>
